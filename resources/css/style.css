@@ -173,29 +173,40 @@ footer{
 footer {
     text-align: center;
   }
+}
+@media only screen and (max-width: 470px) {
   .info{
     margin-top: 0.5rem;
     width: 90%;
   }
+}
+@media only screen and (max-width: 470px) {
   .banner span{
     font-family: helvetica;
     font-size: 0.77rem;
     font-weight: bold;
   }
+}
+@media only screen and (max-width: 470px){
   .banner p{
     font-family: helvetica;
     font-size: 1rem;
     font-weight: bold;
   }
+}
+@media only screen and (max-width: 470px) {
   .main-banner{
     height: 15rem;
   }
+}
+@media only screen and (max-width: 470px) {
   .banner{
     width: 100%;
     margin-top: 10rem;
     padding-top: 1rem;
     padding-left: 2rem;
   }
+}  
 @media only screen and (max-width: 470px){
   nav ul{
     display: none;

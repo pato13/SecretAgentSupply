@@ -163,11 +163,14 @@ footer{
   .info{
     width: 35%;
   }
+  .product.glasses{
+    display: none;
+  }
 }
 
 /*phone style*/
 @media only screen and ( max-width: 470px) {
-  .bottom{
+footer {
     text-align: center;
   }
   .info{
@@ -188,11 +191,33 @@ footer{
     height: 15rem;
   }
   .banner{
+    width: 100%;
     margin-top: 10rem;
     padding-top: 1rem;
     padding-left: 2rem;
   }
-  .navigation{
+  nav ul{
     display: none;
+  }
+  .products, .business{
+    flex-wrap: wrap;
+  }
+}
+  @media only screen and (max-width: 470px){
+.product.watch{
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px){
+  .product{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 470px)
+{
+  .info{
+    width: 90%;
+    margin: 0.5em auto;
   }
 }

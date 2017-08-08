@@ -167,6 +167,12 @@ footer{
     display: none;
   }
 }
+@media only screen and (max-width: 1024px) and (orientation: portrait){
+  .mobile-nav{
+    display: block;
+    text-align: center;
+  }
+}
 
 /*phone style*/
 @media only screen and ( max-width: 470px) {
@@ -192,7 +198,7 @@ footer {
     font-family: helvetica;
     font-size: 1rem;
     font-weight: bold;
-  }
+}
 }
 @media only screen and (max-width: 470px) {
   .main-banner{
@@ -203,10 +209,10 @@ footer {
   .banner{
     width: 100%;
     margin-top: 10rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-  }
-}  
+    padding-top: 1em;
+    padding-left: 2em;
+      }
+}
 @media only screen and (max-width: 470px){
   nav ul{
     display: none;

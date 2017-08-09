@@ -151,6 +151,11 @@ footer{
   margin: 0px auto;
 }
 /*media query */
+@media only screen and (max-width:1024){
+  .main-banner{
+    margin-left: 0px;
+  }
+}
 
 @media only screen and (max-width: 1024px){
   body{

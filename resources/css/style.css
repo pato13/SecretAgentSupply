@@ -75,11 +75,13 @@ nav{
 }
 nav ul{
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding: 0.75rem 0;
+  list-style: none;
 }
-li{
-  display: list-item;
+.mobile-nav{
+  display: none;
 }
 /*section product grid*/
 .product-grid{
@@ -155,6 +157,11 @@ footer{
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 1024px){
+  nav ul{
+    display : none;
+  }
+}
 /*tablet style */
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   .product{
@@ -163,11 +170,13 @@ footer{
   .info{
     width: 35%;
   }
+}
+@media only screen and (max-width:1024px) and (orientation: portrait) {
   .product.glasses{
     display: none;
   }
 }
-@media only screen and (max-width: 1024px) and (orientation: portrait){
+@media only screen and (max-width: 1024px) {
   .mobile-nav{
     display: block;
     text-align: center;
